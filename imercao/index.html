@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 
@@ -15,7 +16,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="#">
-                    <img src="assets/logo.png">
+                    <img src="assets/icons/logo.png">
                 </a>
             </div>
             <ul>
@@ -61,6 +62,31 @@
             </div>
         </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="assets/icons/left.png">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="assets/icons/right.png">
+                    </button>
+                </div>
+
+                <div class="header__search">
+                    <img src="assets/icons/search.png">
+                    <input id="search-input" type="text" maxlength="800" placeholder="Pesquisar">
+                </div>
+
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
 </body>
 
 </html>
